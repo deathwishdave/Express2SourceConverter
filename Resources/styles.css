@@ -1,0 +1,172 @@
+/* QGroupBox **************************************/
+QGroupBox {
+	border: 1px solid #b2b7bb;
+	margin-top: 1ex;
+}
+
+QGroupBox::title {
+     subcontrol-origin: margin;
+     subcontrol-position: top left;
+     padding: 0 3px;
+     left: 7px;
+     top: -2px;
+     color: #82878b;
+ }
+ 
+/* QLineEdit **************************************/
+QLineEdit { background-color: #f7f7f7; border: 1px solid #b0b0b0; height: 16px; margin: 1 1 1 1; }
+QLineEdit::disabled { color:#969696; background-color: #eaeaea; border: 1px solid #b0b0b0; }
+
+/* QPushButton **************************************/
+QPushButton {
+	color: #555555;
+	border: 1px solid #afafb1;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #fafafa, stop: 1 #d6d7da); /*cacbce*/
+	padding: 2px 4px 2px 4px;
+	min-width: 50px;
+}
+
+QPushButton::disabled {	color: #a5a5a5; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e6e7ea, stop: 1 #dadbde); }
+
+QPushButton::enabled:hover { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,  stop: 0 #e6e7ea, stop: 1 #dadbde); }
+QPushButton::enabled:checked { background-color: #f6f7fa; }/*qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,  stop: 0 #f6f7fa, stop: 1 #dadbde); }*/
+QPushButton::enabled:pressed { background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,  stop: 0 #dadbde, stop: 1 #f6f7fa); }
+QPushButton:flat { border: none; }
+QPushButton:default {  border-color: navy; }
+
+
+/* QToolButton **************************************/
+QToolButton
+{
+	border: 1px solid #cccccc;
+	background: #dfdfdf;
+}
+QToolButton::disabled{ background-color: #eeebe5; }
+QToolButton::enabled:hover { background-color: #eceae7; }
+QToolButton:checked { background-color: #eceae7; }
+QToolButton:pressed { background-color: #eceae7; }
+QToolButton:flat { border: none; }
+
+
+/* QTableWidget **************************************/
+QTableWidget
+{
+	color: #555555;
+	background-color: #fcfcfc;
+	selection-background-color: #adbccd;
+	border: 0px;
+	gridline-color: #cccccc;
+}
+
+QHeaderView 
+{
+	background-color: #cccccc;
+	border: 0px;
+}
+ 
+QHeaderView::section 
+{
+	background-color: #dcdcdc;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #bcbcbc;
+}
+
+/* QGraphicsView **************************************/
+QGraphicsScene { background-color: #f7f8f8; }
+QGraphicsView { background-color: #eef0f2; }
+
+
+/* QComboBox **************************************/
+QComboBox {
+     border: 1px solid #cccccc;
+     padding: 1px 18px 1px 3px;
+     min-width: 6em;
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                  stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                  stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+ }
+ 
+QComboBox#SectionCombo {
+     border: 0px;
+     padding: 1px 18px 1px 3px;
+     min-width: 6em;
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                  stop: 0 #f1f1f1, stop: 0.4 #eeeeee,
+                                  stop: 0.5 #e8e8e8, stop: 1.0 #e3e3e3);
+ }
+
+
+QComboBox:!editable, QComboBox::drop-down:editable {
+      background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                  stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                  stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+}
+
+
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                 stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+ }
+
+QComboBox:on {
+     padding-top: 3px;
+     padding-left: 4px;
+ }
+
+QComboBox::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 15px;
+	border-left-width: 1px;
+	border-left-color: darkgray;
+	border-left-style: solid;
+	background-color:#efefef;
+}
+
+ QComboBox::down-arrow {
+     image: url(:Resources/img/dropDownArrow.png);
+ }
+
+ QComboBox::down-arrow:on {
+     top: 1px;
+     left: 1px;
+ }
+ 
+ 
+/* QSplitter **************************************/
+QSplitter::handle:horizontal {
+	image: url(:Resources/img/splitterh.png);
+}
+QSplitter::handle:vertical {
+	image: url(:Resources/img/splitterv.png);
+}
+
+
+
+/*QScrollBar {
+         border: 1px solid grey;
+         background: #eeebe5;
+         
+     }
+     QScrollBar::add-line {
+         border: 2px solid grey;
+         background: #eeebe5;
+
+         subcontrol-position: top;
+         subcontrol-origin: margin;
+     }
+
+     QScrollBar::sub-line {
+         border: 1px solid grey;
+         background: #eeebe5;
+         
+         subcontrol-position: bottom;
+         subcontrol-origin: margin;
+     }*/
+
+QTextField 
+{
+	background-color: #f6f6f6; 
+}

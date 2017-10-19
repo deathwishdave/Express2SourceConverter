@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/save.png</file>
+        <file>styles.css</file>
+        <file>appicon.rc</file>
+        <file>img/appicon.ico</file>
+        <file>img/IfcPlusPlusSplashscreen.png</file>
+        <file>img/IfcPlusPlusWindowIcon.png</file>
+    </qresource>
+</RCC>

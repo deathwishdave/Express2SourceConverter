@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bin\GeneratedFiles\Debug\moc_ExpressHighlighter.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Debug\moc_ExpressToSourceConverter.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Debug\moc_FileWidget.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Debug\moc_MainWindow.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Debug\moc_SessionWidget.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\qrc_resources.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Release\moc_ExpressHighlighter.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Release\moc_ExpressToSourceConverter.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Release\moc_FileWidget.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Release\moc_MainWindow.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Release\moc_SessionWidget.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Template\moc_ExpressHighlighter.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Template\moc_ExpressToSourceConverter.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Template\moc_FileWidget.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Template\moc_MainWindow.cpp" />
+    <ClCompile Include="bin\GeneratedFiles\Template\moc_SessionWidget.cpp" />
+    <ClCompile Include="src\gui\ExpressHighlighter.cpp" />
+    <ClCompile Include="src\gui\FileWidget.cpp" />
+    <ClCompile Include="src\gui\MainWindow.cpp" />
+    <ClCompile Include="src\gui\SessionWidget.cpp" />
+    <ClCompile Include="src\schema\entity\Attribute.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\schema\entity\Entity.cpp" />
+    <ClCompile Include="src\schema\ExpressToSourceConverter.cpp" />
+    <ClCompile Include="src\schema\type\Type.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gui\NewTabWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\schema\shared_ptr.h" />
+    <CustomBuild Include="src\schema\CodeFormat.h" />
+    <CustomBuild Include="src\schema\entity\Attribute.h" />
+    <CustomBuild Include="src\schema\entity\Entity.h" />
+    <CustomBuild Include="src\schema\type\Type.h" />
+    <CustomBuild Include="Resources\resources.qrc" />
+    <CustomBuild Include="Resources\IFC2X4_RC3.exp" />
+    <CustomBuild Include="Resources\img\save.png" />
+    <CustomBuild Include="Resources\img\splitterh.png" />
+    <CustomBuild Include="Resources\img\splitterv.png" />
+    <CustomBuild Include="src\schema\ExpressToSourceConverter.h" />
+    <CustomBuild Include="src\gui\SessionWidget.h" />
+    <CustomBuild Include="src\gui\ExpressHighlighter.h" />
+    <CustomBuild Include="src\gui\FileWidget.h" />
+    <CustomBuild Include="src\gui\MainWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\appicon.rc" />
+  </ItemGroup>
+</Project>

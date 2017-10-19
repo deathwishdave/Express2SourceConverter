@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Express2SourceConverter", "Express2SourceConverter.vcxproj", "{AA22DD34-ADDA-4846-B424-43CE106DE622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Debug|x64.ActiveCfg = Debug|x64
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Debug|x64.Build.0 = Debug|x64
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Debug|x86.Build.0 = Debug|Win32
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Release|x64.ActiveCfg = Release|x64
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Release|x64.Build.0 = Release|x64
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Release|x86.ActiveCfg = Release|Win32
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Release|x86.Build.0 = Release|Win32
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Template|x64.ActiveCfg = Template|x64
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Template|x64.Build.0 = Template|x64
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Template|x86.ActiveCfg = Template|Win32
+		{AA22DD34-ADDA-4846-B424-43CE106DE622}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86CE1103-7F13-447F-8EA9-1C28304E5064}
+		QtVersion = 4.7.3x64
+		Qt5Version = 5.3
+	EndGlobalSection
+EndGlobal
